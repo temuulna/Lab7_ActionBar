@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="45dp"
+    android:layout_height="match_parent"
+    android:background="?attr/actionBarItemBackground"
+    android:clickable="true"
+    android:minWidth="20dp"
+    android:minHeight="?attr/actionBarSize"
+    android:padding="2dp">
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_gravity="left|center_vertical"
+        app:srcCompat="@drawable/thumbs_down" />
+    <TextView
+        android:id="@+id/thumbs_up_num"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="1dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+</FrameLayout>
